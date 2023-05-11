@@ -1,0 +1,34 @@
+body{
+    overflow-x: hidden;
+}
+
+.texto{
+    text-align: justify;
+   }
+
+#header{
+    background-image: url("https://picsum.photos/1425/600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@media (max-width:600px){
+#header{
+    background-image: url("https://picsum.photos/600/600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   .titulo{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+   }
+   
+
+   #resumo{
+       padding: 0px 5%;
+   }
+
+
+}
